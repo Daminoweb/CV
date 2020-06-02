@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /README.md
+Disallow: /divers/
+
+User-agent: Googlebot
+Allow : /js/
+Allow : /css/

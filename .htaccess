@@ -1,0 +1,4 @@
+Options -Indexes -ExecCGI -FollowSymLinks -Includes
+AddCharset UTF-8 .html
+ErrorDocument 404 http://damiengayrard.free.fr/index.html
+Redirect permanent /site http://damiengayrard.free.fr/index.html
