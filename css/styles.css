@@ -197,9 +197,6 @@ nav a {
   box-sizing: border-box;
   width: 100%;
   padding: 1em 0 1em 1em;
-  /* &:hover {
-        color: @color_1;
-        } */
 }
 nav:last-child a {
   padding-bottom: 1em;
@@ -282,7 +279,6 @@ header h2 {
   margin: .85em 0 0;
   border: 5px solid #000;
   background-color: #cbc6c8;
-
 }
 .ext {
   text-align: center;
