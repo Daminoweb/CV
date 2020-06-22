@@ -33,6 +33,11 @@
 /*****************/
 /*****GENERAL*****/
 /*****************/
+:root {
+  --main-bg-color:#00A0FF;
+}
+
+
 html,
 body {
   height: 100%;
@@ -183,7 +188,7 @@ nav ul {
           transition: all .5s ease;
 }
 nav li {
-  background-color: #1d95fe;
+  background-color: var(--main-bg-color);
   border: 1px solid black;
 }
 nav li:hover {
@@ -260,7 +265,7 @@ button:hover {
 /*****HEADER*****/
 /****************/
 header {
-  background-color: #1d95fe;
+  background-color: var(--main-bg-color);
   text-align: center;
   font-size: 1.2em;
   padding: 2em 1% .85em;
@@ -491,7 +496,7 @@ footer {
   left: 0;
   right: 0;
   text-align: center;
-  background-color: #1d95fe;
+  background-color:var(--main-bg-color);
   height: 2em;
   line-height: 2em;
   margin-top: -2em;
